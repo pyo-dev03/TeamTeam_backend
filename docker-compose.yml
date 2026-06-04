@@ -1,6 +1,7 @@
 services:
   backend:
-    build: .
+    # build: .
+    image: REDACTED_AWS_ACCOUNT.dkr.ecr.us-east-1.amazonaws.com/teamteam-backend:latest
     ports:
       - "8000:8000"
     env_file:
